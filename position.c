@@ -1,15 +1,14 @@
 #include<stdio.h>
 void main()
 {
-	int a[20],n,i,x;
-	printf("enter the array size:\n");
+	int a[10],n,i,x;
+	printf("ENTER THE SIZE");
 	scanf("%d",&n);
-	printf("enter the elements in ascending order:\n");
 	for(i=0;i<n;i++)
 	{
 		scanf("%d",&a[i]);
 	}
-	printf("enter x:\n");
+	printf("ENTER x");
 	scanf("%d",&x);
 	for(i=0;i<n;i++)
 	{
@@ -20,11 +19,11 @@ void main()
 	}
 	if (i==n)
 	{
-		printf("\nindex is %d",-1);
+		printf("%d",-1);
 	}
 	else 
 	{
-		printf("index is %d",i);
+		printf("\n %d",i);
 	}
 	
 }
