@@ -3,7 +3,7 @@
 #include<string.h>
 int main()
 {
-  int count_let=0,i,n;
+  int count=0,i,n;
   char str[20];
   printf("enter string:");
   scanf("%s",str);
@@ -14,6 +14,6 @@ int main()
       count_let++;
     }
   }
-  printf("no of letters are : %d",count_let);
+  printf("no of letters are : %d",count);
   return 0;
 }
