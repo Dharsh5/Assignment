@@ -1,19 +1,19 @@
 #include<stdio.h>
 int main()
 {
-  char str[10];
+  	char var[10];
 	int n=0,c=0,x,i,count[10]={0};
 	printf("ENTER THE EQUATION:");
-	scanf("%s",str);
-	while(str[n]!='\0') 
+	scanf("%s",var);
+	while(var[n]!='\0') 
 	{
 	  n++;
 	}
 	for(i=0;i<n;i++)
 	{
-		if((str[i]>='A')&&(str[i]<='Z'))
+		if((var[i]>='a')&&(var[i]<='z'))
 		{
-			  	x=str[i]-'A';
+			    x=str[i]-'a';
 			    if(count[x]==0)
 			    {
 			        count[x]=1;
